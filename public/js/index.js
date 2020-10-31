@@ -244,8 +244,13 @@ const list = new ActivityList()
 
 function eventClicked(e){
 	let id = $(e).data('id')
+
 	let month = $(e).data('month')
+	if(parseInt(app.period.val()) == 2)
+		month += 6
+
 	let method = $(e).data('method')
+	
 	let data = list.findDataById(id, month, method)
 	dialog.editData(data)
 }

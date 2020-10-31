@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light shadow-sm p-3 mb-3 bg-white rounded">
     <a class="navbar-brand text-info" href="#">Learning Activity</a>
-    <a href="#" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation" style="border: unset;">
+    <a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation" style="border: unset;">
       <i class="fa fa-caret-square-down text-info"></i>
     </a>
 

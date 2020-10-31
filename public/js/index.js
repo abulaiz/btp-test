@@ -35,7 +35,7 @@ class App {
 		years.push(current_year)
 
 		for(let i = 1; i <= range_year/2; i++)
-			years.push(current_year-i)	
+			years.push(current_year+i)	
 
 		// set into options
 		for(let i in years)
@@ -250,7 +250,7 @@ function eventClicked(e){
 		month += 6
 
 	let method = $(e).data('method')
-	
+
 	let data = list.findDataById(id, month, method)
 	dialog.editData(data)
 }

@@ -18,7 +18,7 @@ class CreateActivitiesTable extends Migration
             $table->string('name');
             $table->unsignedInteger('method_id');
             $table->date('started_date');
-            $table->date('ended_data');
+            $table->date('ended_date');
             $table->timestamps();
             $table->softDeletes();
         });

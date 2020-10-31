@@ -1,0 +1,25 @@
+body{
+	background-color: #f8f9fa;
+}
+
+.month .event {
+	padding: 5px;
+	margin: 2px;
+	background-color: #6610f2;
+	color: white;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.month .event p {
+	margin: unset;
+}
+
+.month .event .name {
+	font-size: 0.9rem;
+}
+
+.month .event .date {
+	font-weight: bold;
+	font-size: 0.8rem;
+}
